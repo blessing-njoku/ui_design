@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Products_offers{
+    background-image: url(../img/imag1.jpg);
+    padding:100px;
+    background-size:cover;
+    background-position:top;
+    height: 500px;
+}
+.Products_offers h2{
+    color: whitesmoke;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 45px;
+}
+@media(max-width:700px){
+    .Products_offers{
+        background-position: top;
+        height: 500px;
+        font-size: 20px;
+        justify-items: left;
+
+    }
+    .Products_offers h2{
+        position:relative;
+    }
+}
+
+/* banner section  */
+.banner_class{
+    height: 500px;
+    box-shadow: 2px 2px 3px 1px #e1e1e1;
+    margin: 0 10px;
+}
+#col1{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/imag3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px ;
+
+}
+#col2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/imag4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px ;
+    
+    
+}
+#col3{
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/imag7.jpg);
+ background-position: center;
+ background-size: cover;
+ padding-top: 300px ;
+ 
+}
+
+
+
+
+.Products-offers{
+    background-image: url(../img/imag19.jpg);
+    padding:100px;
+    background-size:cover;
+    width: 100%;
+
+}
+.Products-offers h2{
+    color: whitesmoke;
+    font-family: 'Lobster Two', sans-serif;
+}
+.Products-offers h1{
+    color: whitesmoke;
+    font-family: 'Lobster Two', sans-serif;
+    
+}
+.Products-offers h5{
+    color: whitesmoke;
+    font-family: 'Lobster Two', sans-serif;
+
+}
+.Products-offers h6{
+    color: whitesmoke;
+    font-family: 'Lobster Two', sans-serif;
+    
+}
